@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import BHLogo from './BHLogo';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <BHLogo className="App-logo" />
         <p>
           <code>I am currently refactoring brian.hollingsworth.codes into a <a
           className="App-link"
