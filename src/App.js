@@ -1,6 +1,7 @@
 import React from 'react';
 import BHLogo from './BHLogo';
 import './App.css';
+import './signature-animate.css';
 
 function App() {
   return (
