@@ -1,13 +1,14 @@
 {
   "name": "brian-hollingsworth-codes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "homepage": "https://brian.hollingsworth.codes",
   "dependencies": {
+    "emotion": "10.0.14",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "emotion": "10.0.14"
+    "react-native-fontawesome": "^7.0.0",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
