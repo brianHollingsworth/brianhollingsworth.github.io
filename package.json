@@ -1,14 +1,19 @@
 {
   "name": "brian-hollingsworth-codes",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "private": true,
   "homepage": "https://brian.hollingsworth.codes",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "emotion": "10.0.14",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-native-fontawesome": "^7.0.0",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
