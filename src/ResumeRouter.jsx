@@ -37,30 +37,25 @@ export default function ResumeRouter(props) {
   return (
     <Router>
       <div style={{ display: "flex", width: "100%" }}>
-        <div
-          style={{
-            padding: "10px",
-            width: "25%",
-          }}
-        >
+        <div id="router-sidebar" style={{ width: "5%", backgroundColor: "#282C34" }}>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li>
               <BHLogo className="App-logo" />
             </li>
             <li>
-              <ResumeSection route="/" icon={faUserCircle} text="Profile"/>
+              <ResumeSection route="/" icon={faUserCircle}/>
             </li>
             <li>
-              <ResumeSection route="/work-experience" icon={faBriefcase} text="Work Experience"/>
+              <ResumeSection route="/work-experience" icon={faBriefcase}/>
             </li>
             <li>
-              <ResumeSection route="/skillset" icon={faCode} text="Skillset"/>
+              <ResumeSection route="/skillset" icon={faCode}/>
             </li>
             <li>
-              <a id="twitter" href="https://twitter.com/Kobe_Brian" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /> @Kobe_Brian</a>
+              <a id="twitter" href="https://twitter.com/Kobe_Brian" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
             </li>
             <li>
-              <a id="github" href="https://github.com/brianHollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /> brianHollingsworth</a>
+              <a id="github" href="https://github.com/brianHollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
             </li>
           </ul>
         </div>
