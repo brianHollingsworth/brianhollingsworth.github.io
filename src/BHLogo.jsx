@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function BHLogo({ className, stroke }) {
+function BHLogo({ className, stroke, width, height }) {
   return (
-    <svg width="700px" height="700px" viewBox="0 0 700 700" className={className}>
+    <svg width={width} height={height} viewBox="0 0 700 700" className={className}>
         <title>Signature</title>
         <desc>A signature I created while working at Merrill.</desc>
         <g id="Signature" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">

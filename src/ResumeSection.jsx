@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ResumeSection(props) {
     return (
-        <NavLink to={props.route} exact style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: '#61dafb', textDecoration: 'none'}}><FontAwesomeIcon icon={props.icon} /></NavLink>
+        <li>
+            <NavLink to={props.route} exact style={{color: '#6e7179', textDecoration: 'none'}} activeStyle={{color: 'white', textDecoration: 'none', borderLeft: 'solid white 0.15em', paddingLeft: '0.85em'}}><FontAwesomeIcon icon={props.icon} /></NavLink>
+        </li>
     );
 }

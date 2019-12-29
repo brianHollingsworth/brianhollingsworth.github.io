@@ -37,20 +37,14 @@ export default function ResumeRouter(props) {
   return (
     <Router>
       <div style={{ display: "flex", width: "100%" }}>
-        <div id="router-sidebar" style={{ width: "5%", backgroundColor: "#282C34" }}>
+        <div id="router-sidebar" style={{ width: "3.1em", backgroundColor: "#282C34" }}>
           <ul style={{ listStyleType: "none", padding: 0 }}>
-            <li>
+            <li id="logo-li">
               <BHLogo className="App-logo" />
             </li>
-            <li>
               <ResumeSection route="/" icon={faUserCircle}/>
-            </li>
-            <li>
               <ResumeSection route="/work-experience" icon={faBriefcase}/>
-            </li>
-            <li>
               <ResumeSection route="/skillset" icon={faCode}/>
-            </li>
             <li>
               <a id="twitter" href="https://twitter.com/Kobe_Brian" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
             </li>
