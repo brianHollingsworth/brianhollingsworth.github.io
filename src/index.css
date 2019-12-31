@@ -10,7 +10,7 @@ html, body {
 }
 
 a {
-  color: #fff;
+  color: #6e7179;
   text-decoration: none;
 }
 
@@ -19,12 +19,16 @@ li {
   text-align: center;
 }
 
-#logo-li {
-  padding: 0.42em;
+li:hover .svg-inline--fa {
+  color: white;
 }
 
 li a {
   display: block; padding: 1em;
+}
+
+#logo-li {
+  padding: 0.42em;
 }
 
 code {
