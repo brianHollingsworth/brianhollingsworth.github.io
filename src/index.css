@@ -10,7 +10,7 @@ html, body {
 }
 
 a {
-  color: #6e7179;
+  color: #6e7179 !important;
   text-decoration: none;
 }
 
