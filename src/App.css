@@ -20,13 +20,9 @@
   color: white;
 }
 
-#router-switch div {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  padding: 2em;
+#work-experience {
+  overflow: auto;
+  max-height: 100vh;
 }
 
 @keyframes App-logo-spin {

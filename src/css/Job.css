@@ -1,0 +1,19 @@
+.job {
+    padding: 1em 0 0 2em;
+    text-align: left;
+}
+
+.job p {
+    padding-bottom: 1em;
+}
+
+.job-header {
+    text-align: left;
+}
+
+hr {
+    width: 95%;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: white;
+}
