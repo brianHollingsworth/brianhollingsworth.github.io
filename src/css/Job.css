@@ -11,6 +11,11 @@
     text-align: left;
 }
 
+.job-header h4, h5, h6 {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
 hr {
     width: 95%;
     margin-left: 0;
