@@ -9,9 +9,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: #6e7179 !important;
-  text-decoration: none;
+#twitter, #github {
+  color: #6e7179;
 }
 
 li {
