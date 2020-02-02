@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import LanguagesData from './js/Languages.json'
-import ToolsData from './js/Tools.json'
-import EnvironmentsData from './js/Environments.json'
+import Languages from './js/Languages.json'
+import Tools from './js/Tools.json'
+import Environments from './js/Environments.json'
 import './css/Skillset.css'
 
 class SkillGrid extends Component {
@@ -9,21 +9,21 @@ class SkillGrid extends Component {
         return (
             <div>
                 <div className='flex-container'>
-                        {LanguagesData.map((languageDetail, index)=>{
+                        {Languages.map((language)=>{
                         return <div>
-                            <img alt={languageDetail.Name} src={languageDetail.Icon}/>
+                            <img alt={language.Name} src={language.Icon}/>
                             </div>
                         })}
                         <hr></hr>
-                        {ToolsData.map((toolDetail, index)=>{
+                        {Tools.map((tool)=>{
                         return <div>
-                            <img alt={toolDetail.Name} src={toolDetail.Icon}/>
+                            <img alt={tool.Name} src={tool.Icon}/>
                             </div>
                         })}
                         <hr></hr>
-                        {EnvironmentsData.map((environmentDetail, index)=>{
+                        {Environments.map((environment)=>{
                         return <div>
-                            <img alt={environmentDetail.Name} src={environmentDetail.Icon}/>
+                            <img alt={environment.Name} src={environment.Icon}/>
                             </div>
                         })}
                 </div>
