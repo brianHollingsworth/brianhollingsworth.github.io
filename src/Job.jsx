@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser'
 import './css/Job.css';
 
 const Job = props => {
@@ -10,7 +11,7 @@ const Job = props => {
                 <h5 className="job-tenure">{props.tenure}</h5>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odit, dolores unde atque recusandae expedita dignissimos eum tempora veniam perspiciatis.
+            { ReactHtmlParser(props.description) }
             </p>
             <hr></hr>
         </div>
