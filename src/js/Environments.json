@@ -1,0 +1,27 @@
+[
+    {
+        "Name": "macOS",
+        "Proficiency": 5,
+        "Icon": "images/environments/macOS.png"
+    },
+    {
+        "Name": "Windows",
+        "Proficiency": 5,
+        "Icon": "images/environments/Windows_7.png"
+    },
+    {
+        "Name": "Red Hat",
+        "Proficiency": 4,
+        "Icon": "images/environments/Red_Hat.png"
+    },
+    {
+        "Name": "SUSE Linux",
+        "Proficiency": 2,
+        "Icon": "images/environments/SUSE_Linux.png"
+    },
+    {
+        "Name": "Ubuntu",
+        "Proficiency": 2,
+        "Icon": "images/environments/Ubuntu.png"
+    }
+]

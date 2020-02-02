@@ -1,0 +1,97 @@
+{
+    "skillset": {
+      "languages": [{
+        "Name": "Java",
+        "Proficiency": 5,
+        "Icon": "images/Language_Icons/Java.png"
+      }, {
+        "Name": "C#",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/CSharp.png"
+      }, {
+        "Name": "C++",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/C++.png"
+      }, {
+        "Name": "HTML",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/HTML.png"
+      }, {
+        "Name": "CSS",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/CSS.png"
+      }, {
+        "Name": "JavaScript",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/JavaScript.png"
+      }, {
+        "Name": "Node.js",
+        "Proficiency": 4,
+        "Icon": "images/Language_Icons/Nodejs.png"
+      }, {
+        "Name": "Python",
+        "Proficiency": 3,
+        "Icon": "images/Language_Icons/Python.png"
+      }, {
+        "Name": "Perl",
+        "Proficiency": 2,
+        "Icon": "images/Language_Icons/Perl.png"
+      }],
+  
+      "tools": [{
+        "Name": "IntelliJ IDEA",
+        "Proficiency": 5,
+        "Icon": "images/Tool_Icons/IntelliJ_IDEA.png"
+      }, {
+        "Name": "Visual Studio",
+        "Proficiency": 4,
+        "Icon": "images/Tool_Icons/Visual_Studio.png"
+      }, {
+        "Name": "Visual Studio Code",
+        "Proficiency": 4,
+        "Icon": "images/Tool_Icons/Visual_Studio_Code.png"
+      }, {
+        "Name": "Git",
+        "Proficiency": 4,
+        "Icon": "images/Tool_Icons/Git.png"
+      }, {
+        "Name": "MySQL",
+        "Proficiency": 4,
+        "Icon": "images/Tool_Icons/MySQL.png"
+      }, {
+        "Name": "SQL Server",
+        "Proficiency": 3,
+        "Icon": "images/Tool_Icons/SQL_Server.png"
+      }, {
+        "Name": "OpenShift",
+        "Proficiency": 3,
+        "Icon": "images/Tool_Icons/OpenShift.png"
+      }, {
+        "Name": "Xcode",
+        "Proficiency": 2,
+        "Icon": "images/Tool_Icons/Xcode.png"
+      }],
+  
+      "environments": [{
+        "Name": "macOS",
+        "Proficiency": 5,
+        "Icon": "images/Environment_Icons/macOS.png"
+      }, {
+        "Name": "Windows",
+        "Proficiency": 5,
+        "Icon": "images/Environment_Icons/Windows_7.png"
+      }, {
+        "Name": "Red Hat",
+        "Proficiency": 4,
+        "Icon": "images/Environment_Icons/Red_Hat.png"
+      }, {
+        "Name": "SUSE Linux",
+        "Proficiency": 2,
+        "Icon": "images/Environment_Icons/SUSE_Linux.png"
+      }, {
+        "Name": "Ubuntu",
+        "Proficiency": 2,
+        "Icon": "images/Environment_Icons/Ubuntu.png"
+      }]
+    }
+  }

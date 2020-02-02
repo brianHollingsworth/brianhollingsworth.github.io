@@ -18,7 +18,7 @@
   color: white;
 }
 
-#work-experience {
+#work-experience, #skillset {
   overflow-y: scroll;
   max-height: 100vh;
 }

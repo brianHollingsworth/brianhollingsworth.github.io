@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "Java",
+    "Proficiency": 5,
+    "Icon": "images/languages/Java.png"
+  },
+  {
+    "Name": "C#",
+    "Proficiency": 4,
+    "Icon": "images/languages/CSharp.png"
+  },
+  {
+    "Name": "C++",
+    "Proficiency": 4,
+    "Icon": "images/languages/C++.png"
+  },
+  {
+    "Name": "HTML",
+    "Proficiency": 4,
+    "Icon": "images/languages/HTML.png"
+  },
+  {
+    "Name": "CSS",
+    "Proficiency": 4,
+    "Icon": "images/languages/CSS.png"
+  },
+  {
+    "Name": "JavaScript",
+    "Proficiency": 4,
+    "Icon": "images/languages/JavaScript.png"
+  },
+  {
+    "Name": "Node.js",
+    "Proficiency": 4,
+    "Icon": "images/languages/Nodejs.png"
+  },
+  {
+    "Name": "Python",
+    "Proficiency": 3,
+    "Icon": "images/languages/Python.png"
+  },
+  {
+    "Name": "Perl",
+    "Proficiency": 2,
+    "Icon": "images/languages/Perl.png"
+  }
+]

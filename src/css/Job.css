@@ -11,9 +11,14 @@
     text-align: left;
 }
 
-.job-header h4, h5, h6 {
+.job-title {
     margin: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.1em;
+}
+
+.job-company, .job-tenure {
+    margin: 0;
+    padding-bottom: 0.2em;
 }
 
 hr {

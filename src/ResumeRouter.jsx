@@ -54,7 +54,7 @@ export default function ResumeRouter(props) {
           </ul>
         </div>
 
-        <div id="router-switch" style={{ flex: 1, padding: "10px" }}>
+        <div id="router-switch" style={{ flex: 1, paddingRight: "1em" }}>
           <Switch>
             {routes.map((route, index) => (
               // Render more <Route>s with the same paths as
