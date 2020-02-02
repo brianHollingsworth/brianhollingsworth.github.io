@@ -1,6 +1,6 @@
 {
   "name": "brian-hollingsworth-codes",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "homepage": "https://brian.hollingsworth.codes",
   "dependencies": {
@@ -12,6 +12,7 @@
     "handlebars": ">=4.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-html-parser": "2.0.2",
     "react-native-fontawesome": "^7.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0"
