@@ -21,6 +21,10 @@
     padding-bottom: 0.2em;
 }
 
+.job-body {
+    width: 95%;
+}
+
 hr {
     width: 95%;
     margin-left: 0;

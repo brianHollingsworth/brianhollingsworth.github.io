@@ -10,9 +10,11 @@ const Job = props => {
                 <h5 className="job-company">{props.company}</h5>
                 <h5 className="job-tenure">{props.tenure}</h5>
             </div>
-            <p>
-            { ReactHtmlParser(props.description) }
-            </p>
+            <div className="job-body">
+                <p>
+                { ReactHtmlParser(props.description) }
+                </p>
+            </div>
             <hr></hr>
         </div>
     );
