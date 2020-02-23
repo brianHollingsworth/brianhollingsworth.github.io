@@ -15,7 +15,7 @@ const Job = props => {
                 { ReactHtmlParser(props.description) }
                 </p>
             </div>
-            <hr></hr>
+            <hr className="job-divider"></hr>
         </div>
     );
 };
