@@ -35,13 +35,13 @@
     "Icon": "images/languages/Nodejs.png"
   },
   {
+    "Name": "React",
+    "Proficiency": 3,
+    "Icon": "images/languages/React.png"
+  },
+  {
     "Name": "Python",
     "Proficiency": 3,
     "Icon": "images/languages/Python.png"
-  },
-  {
-    "Name": "Perl",
-    "Proficiency": 2,
-    "Icon": "images/languages/Perl.png"
   }
 ]
