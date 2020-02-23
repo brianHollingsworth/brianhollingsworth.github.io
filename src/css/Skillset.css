@@ -4,10 +4,8 @@ img {
     padding: 1em;
 }
 
-hr {
-    width: 95%;
-    margin-left: 0;
-    margin-right: auto;
+.skillset-divider {
+    width: 80%;
     background-color: white;
 }
 
@@ -15,4 +13,8 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.hr-container {
+    width: 100%;
 }

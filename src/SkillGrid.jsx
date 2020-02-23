@@ -14,13 +14,17 @@ class SkillGrid extends Component {
                             <img alt={language.Name} src={language.Icon}/>
                             </div>
                         })}
-                        <hr></hr>
+                        <div className="hr-container">
+                            <hr className="skillset-divider"></hr>
+                        </div>
                         {Tools.map((tool)=>{
                         return <div>
                             <img alt={tool.Name} src={tool.Icon}/>
                             </div>
                         })}
-                        <hr></hr>
+                        <div className="hr-container">
+                            <hr className="skillset-divider"></hr>
+                        </div>
                         {Environments.map((environment)=>{
                         return <div>
                             <img alt={environment.Name} src={environment.Icon}/>
