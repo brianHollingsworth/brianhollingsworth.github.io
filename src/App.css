@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -21,6 +21,11 @@
 #work-experience, #skillset {
   overflow-y: scroll;
   max-height: 100vh;
+}
+
+h1 {
+  padding: 0 0 0.5em 1em;
+  margin-bottom: 0;
 }
 
 .spacer {

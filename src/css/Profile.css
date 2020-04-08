@@ -13,9 +13,11 @@
 }
 
 #profile-span {
-    height: 60vh;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#profile p {
+    padding-left: 2em;
 }

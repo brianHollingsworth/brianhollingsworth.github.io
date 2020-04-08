@@ -11,7 +11,7 @@ class SkillGrid extends Component {
                 <div className='flex-container'>
                         {Languages.map((language)=>{
                         return <div>
-                            <img alt={language.Name} src={language.Icon}/>
+                            <img className="skill-image" alt={language.Name} src={language.Icon}/>
                             </div>
                         })}
                         <div className="hr-container">
@@ -19,7 +19,7 @@ class SkillGrid extends Component {
                         </div>
                         {Tools.map((tool)=>{
                         return <div>
-                            <img alt={tool.Name} src={tool.Icon}/>
+                            <img className="skill-image" alt={tool.Name} src={tool.Icon}/>
                             </div>
                         })}
                         <div className="hr-container">
@@ -27,7 +27,7 @@ class SkillGrid extends Component {
                         </div>
                         {Environments.map((environment)=>{
                         return <div>
-                            <img alt={environment.Name} src={environment.Icon}/>
+                            <img className="skill-image" alt={environment.Name} src={environment.Icon}/>
                             </div>
                         })}
                 </div>

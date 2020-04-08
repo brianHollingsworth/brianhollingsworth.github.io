@@ -4,7 +4,7 @@ import JobList from './JobList'
 export default function WorkExperience(props) {
     return (
         <div id="work-experience">
-            <h2>Work Experience</h2>
+            <h1>Work Experience</h1>
             <JobList/>
             <div className="spacer"></div>
         </div>
