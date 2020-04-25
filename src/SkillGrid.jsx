@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Languages from './js/Languages.json'
 import Tools from './js/Tools.json'
 import Environments from './js/Environments.json'
+import SkillProficiency from './SkillProficiency'
 import './css/Skillset.css'
 
 class SkillGrid extends Component {
@@ -14,6 +15,7 @@ class SkillGrid extends Component {
                                 <img className="skill-image" alt={language.Name} src={language.Icon}/>
                                 <div className="skill-overlay">
                                     <div class="text">{language.Name}</div>
+                                    <SkillProficiency proficiency={language.Proficiency}/>
                                 </div>
                             </div>
                         })}
@@ -25,6 +27,7 @@ class SkillGrid extends Component {
                                 <img className="skill-image" alt={tool.Name} src={tool.Icon}/>
                                 <div className="skill-overlay">
                                     <div class="text">{tool.Name}</div>
+                                    <SkillProficiency proficiency={tool.Proficiency}/>
                                 </div>
                             </div>
                         })}
@@ -36,6 +39,7 @@ class SkillGrid extends Component {
                                 <img className="skill-image" alt={environment.Name} src={environment.Icon}/>
                                 <div className="skill-overlay">
                                     <div class="text">{environment.Name}</div>
+                                    <SkillProficiency proficiency={environment.Proficiency}/>
                                 </div>
                             </div>
                         })}
