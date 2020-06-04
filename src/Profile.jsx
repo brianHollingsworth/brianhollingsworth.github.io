@@ -12,7 +12,7 @@ export default function Profile(props) {
                 href="https://github.com/brianHollingsworth/brian.hollingsworth.codes"
                 target="_blank"
                 rel="noopener noreferrer">Node.js</a> application on the free tier of OpenShift, it has
-                been refactored into React and placed on GitHub Pages.</p>
+                been refactored into React and placed on AWS.</p>
             </span>
         </div>
     );
