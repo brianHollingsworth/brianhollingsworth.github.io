@@ -61,3 +61,7 @@
 #skillset p {
     padding-left: 2em;
 }
+
+.fa-xs {
+    font-size: 0.67em;
+}
