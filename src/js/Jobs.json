@@ -4,7 +4,7 @@
         "Title": "Software Engineer",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
-        "Description": "Helping people live healthier lives and helping make the health system work better for everyone... one line of Java at a time.",
+        "Description": "My most challenging and most rewarding experience, working on a truly enterprise-level solution. I am part of a well-versed team of engineers within a greater team of several hundred engineers all working towards the same goal: transform the health care benefits industry. We follow the Kanban methodology and utilize CI/CD tools such as GitHub Enterprise, CA Agile, and Jenkins. Our core Spring Framework project is written in Java EE 8 and built with Apache Maven.</br></br><u>Ehcache:</u> I’ve had several memorable user stories on this project, but my implementation of a systems settings cache first comes to mind when I think of my proudest achievements. Thousands of times per day, our code applies system settings to input; these settings were previously pulled from our database for each application. As one can imagine, that many database reads becomes needlessly taxing when these settings are rarely changed. To offload our database, I implemented an <a href=\"https://www.ehcache.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Ehcache</a> that’s loaded at build time, cleared after an hour, and only reloaded the next time system settings need application. Now, instead of making thousands of daily calls to our database, we make at most a couple dozen.",
         "Icon": "images/Company_Icons/Optum.png",
         "Tenure": "October 2018 - Present"
     },
