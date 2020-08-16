@@ -5,16 +5,6 @@
     "Icon": "images/languages/Java.png"
   },
   {
-    "Name": "C#",
-    "Proficiency": 4,
-    "Icon": "images/languages/CSharp.png"
-  },
-  {
-    "Name": "C++",
-    "Proficiency": 4,
-    "Icon": "images/languages/C++.png"
-  },
-  {
     "Name": "HTML",
     "Proficiency": 4,
     "Icon": "images/languages/HTML.png"
@@ -35,13 +25,18 @@
     "Icon": "images/languages/Nodejs.png"
   },
   {
+    "Name": "C#",
+    "Proficiency": 4,
+    "Icon": "images/languages/CSharp.png"
+  },
+  {
+    "Name": "C++",
+    "Proficiency": 3,
+    "Icon": "images/languages/C++.png"
+  },
+  {
     "Name": "React",
     "Proficiency": 3,
     "Icon": "images/languages/React.png"
-  },
-  {
-    "Name": "Python",
-    "Proficiency": 3,
-    "Icon": "images/languages/Python.png"
   }
 ]

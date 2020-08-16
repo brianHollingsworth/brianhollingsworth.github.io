@@ -15,11 +15,6 @@
         "Icon": "images/environments/Red_Hat.png"
     },
     {
-        "Name": "SUSE Linux",
-        "Proficiency": 2,
-        "Icon": "images/environments/SUSE_Linux.png"
-    },
-    {
         "Name": "Ubuntu",
         "Proficiency": 2,
         "Icon": "images/environments/Ubuntu.png"
