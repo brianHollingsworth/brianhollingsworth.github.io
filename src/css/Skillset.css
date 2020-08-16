@@ -62,6 +62,10 @@
     padding-left: 2em;
 }
 
+#stars-div {
+    text-align: center;
+}
+
 .fa-xs {
-    font-size: 0.67em;
+    font-size: 0.6em;
 }

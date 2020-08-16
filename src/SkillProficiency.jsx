@@ -12,7 +12,7 @@ const SkillProficiency = props => {
     }
 
     return (
-        <div>
+        <div id="stars-div">
             {stars}
         </div>
     )
