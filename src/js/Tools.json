@@ -30,9 +30,9 @@
         "Icon": "images/tools/SQL_Server.png"
     },
     {
-        "Name": "OpenShift",
+        "Name": "RabbitMQ",
         "Proficiency": 3,
-        "Icon": "images/tools/OpenShift.png"
+        "Icon": "images/tools/RabbitMQ.png"
     },
     {
         "Name": "Xcode",

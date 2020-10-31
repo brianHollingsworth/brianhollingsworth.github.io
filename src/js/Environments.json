@@ -15,8 +15,8 @@
         "Icon": "images/environments/Red_Hat.png"
     },
     {
-        "Name": "Ubuntu",
-        "Proficiency": 2,
-        "Icon": "images/environments/Ubuntu.png"
+        "Name": "OpenShift",
+        "Proficiency": 3,
+        "Icon": "images/environments/OpenShift.png"
     }
 ]
