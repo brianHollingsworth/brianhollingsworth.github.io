@@ -52,7 +52,7 @@ export default function ResumeRouter(props) {
               <a id="github" href="https://github.com/brianHollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
             </li>
             <li>
-              <a id="resume" href="./Brian_Hollingsworth_Resume.pdf" target="_blank" download><FontAwesomeIcon icon={faFileDownload} /></a>
+              <a id="resume" href="https://github.com/brianHollingsworth/brian-hollingsworth-dev/raw/master/public/Brian_Hollingsworth_Resume.pdf" target="_blank" rel="noopener noreferrer" download><FontAwesomeIcon icon={faFileDownload} /></a>
             </li>
           </ul>
         </div>
