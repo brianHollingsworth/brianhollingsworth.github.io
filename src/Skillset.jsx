@@ -6,7 +6,7 @@ export default function Skillset(props) {
         <div id="skillset">
             <h1>Skillset</h1>
             <p>Loosely following the <a href="http://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf" target="_blank" rel="noopener noreferrer">
-                <i>Dreyfus model of skill acquisition</i></a>, I've laid out what I believe to be my top skills into three categories: languages, tools, and operating systems.</p>
+                <i>Dreyfus model of skill acquisition</i></a>, I've laid out what I believe to be my top skills into four categories: languages, web frameworks, tools, and platforms.</p>
             <SkillGrid/>
         </div>
     );

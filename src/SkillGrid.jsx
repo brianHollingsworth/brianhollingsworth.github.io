@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Languages from './js/Languages.json'
+import Frameworks from './js/Frameworks.json'
 import Tools from './js/Tools.json'
 import Environments from './js/Environments.json'
 import SkillProficiency from './SkillProficiency'
@@ -16,6 +17,18 @@ class SkillGrid extends Component {
                                 <div className="skill-overlay">
                                     <div class="text">{language.Name}</div>
                                     <SkillProficiency proficiency={language.Proficiency}/>
+                                </div>
+                            </div>
+                        })}
+                        <div className="hr-container">
+                            <hr className="skillset-divider"></hr>
+                        </div>
+                        {Frameworks.map((framework)=>{
+                        return <div className="skill-container">
+                                <img className="skill-image" alt={framework.Name} src={framework.Icon}/>
+                                <div className="skill-overlay">
+                                    <div class="text">{framework.Name}</div>
+                                    <SkillProficiency proficiency={framework.Proficiency}/>
                                 </div>
                             </div>
                         })}

@@ -33,10 +33,5 @@
         "Name": "RabbitMQ",
         "Proficiency": 3,
         "Icon": "images/tools/RabbitMQ.png"
-    },
-    {
-        "Name": "Xcode",
-        "Proficiency": 2,
-        "Icon": "images/tools/Xcode.png"
     }
 ]
