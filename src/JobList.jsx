@@ -5,7 +5,7 @@ import JobsData from './js/Jobs.json'
 class JobList extends Component {
     render () {
         return (
-            <div>
+            <div style={{ paddingBottom: "2em" }}>
                 {JobsData.map((jobDetail)=>{
                     return <Job key={jobDetail.key} title={jobDetail.Title} company={jobDetail.Company} tenure={jobDetail.Tenure} description={jobDetail.Description}/>
                 })}
