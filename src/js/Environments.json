@@ -7,12 +7,17 @@
     {
         "Name": "Windows",
         "Proficiency": 5,
-        "Icon": "images/environments/Windows_7.png"
+        "Icon": "images/environments/Windows.png"
     },
     {
         "Name": "Red Hat",
         "Proficiency": 4,
         "Icon": "images/environments/Red_Hat.png"
+    },
+    {
+        "Name": "Ubuntu",
+        "Proficiency": 3,
+        "Icon": "images/environments/Ubuntu.png"
     },
     {
         "Name": "OpenShift",
