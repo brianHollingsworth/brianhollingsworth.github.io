@@ -21,3 +21,40 @@
 #profile p {
     padding-left: 2em;
 }
+
+.cert-container {
+    position: relative;
+    text-align: justify;
+}
+
+.cert-date {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cert-image-certified {
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+}
+
+.cert-image-todo {
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    transition: transform .2s;
+    opacity: 0.5;
+}
+
+.cert-divider {
+    width: 80%;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2em;
+}

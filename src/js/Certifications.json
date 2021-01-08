@@ -1,0 +1,14 @@
+[
+    {
+      "Name": "AWS Certified Cloud Practitioner",
+      "Certified": true,
+      "Date": "12/29/20",
+      "Icon": "images/certifications/aws-certified-cloud-practitioner.png"
+    },
+    {
+      "Name": "AWS Certified Developer - Associate",
+      "Certified": false,
+      "Date": "Coming Late 2021",
+      "Icon": "images/certifications/aws-certified-developer-associate.png"
+    }
+  ]

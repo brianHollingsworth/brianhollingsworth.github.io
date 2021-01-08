@@ -1,4 +1,5 @@
 import React from 'react';
+import CertificationGrid from './CertificationGrid'
 import './css/Profile.css';
 
 export default function Profile(props) {
@@ -16,8 +17,15 @@ export default function Profile(props) {
                 className="profile-link"
                 href="https://aws.amazon.com/amplify/"
                 target="_blank"
-                rel="noopener noreferrer">AWS Amplify</a>.</p>
+                rel="noopener noreferrer">AWS Amplify</a>.<br/><br/>My fandom of AWS drove me to become an <a
+                className="aws-certified-cloud-practitioner"
+                href="https://www.youracclaim.com/badges/5931d596-c2da-4b98-ace2-81e46d0c231b/public_url"
+                target="_blank"
+                rel="noopener noreferrer">AWS Certified Cloud Practitioner</a>. With some more time working in an enterprise setting,
+                the AWS Certified Developer - Associate is certainly my next endeaver.
+            </p>
             </span>
+            <CertificationGrid/>
         </div>
     );
 }
