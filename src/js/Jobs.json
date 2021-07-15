@@ -4,7 +4,7 @@
         "Title": "Software Engineer",
         "Company": "Parametric",
         "Site": "https://www.parametricportfolio.com",
-        "Description": "<u>Dockerize Manual Accounting:</u> In an effort to alleviate our accountants and analysts from as many tedious processes as possible, I have isolated several services as Docker images to be built and run on a scheduled basis. These services have been estimated to save at least a half hour per day of manual work that is now better spent elsewhere.",
+        "Description": "<u>Security Master API:</u> As with any successful investment management group, having a centralized datastore of securities is pivotal for providing clients with accurate offerings. I developed a Spring Boot microservice, based on the principles of <a href=\"https://alistair.cockburn.us/hexagonal-architecture/\" target=\"_blank\" rel=\"noopener noreferrer\">Hexagonal Architecture</a>, to manage millions of securities. The core AWS services I've leveraged are <a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\">ECS</a>, <a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\">Aurora</a>, and <a href=\"https://aws.amazon.com/lambda/\" target=\"_blank\" rel=\"noopener noreferrer\">Lambda</a>.</br></br><u>Dockerize Manual Accounting:</u> In an effort to alleviate our accountants and analysts from as many tedious processes as possible, I have isolated several services as Docker images to be built and run on a scheduled basis. These services have been estimated to save at least a half hour per day of manual work that is now better spent elsewhere.",
         "Icon": "images/Company_Icons/Parametric.png",
         "Tenure": "November 2020 - Present"
     },
