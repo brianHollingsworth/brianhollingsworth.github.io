@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "macOS",
+        "Proficiency": 5,
+        "Icon": "images/platforms/macOS.png"
+      },
+      {
+        "Name": "Windows",
+        "Proficiency": 5,
+        "Icon": "images/platforms/Windows_7.png"
+      }, {
+        "Name": "AWS",
+        "Proficiency": 4,
+        "Icon": "images/platforms/AWS.png"
+      }, {
+        "Name": "Red Hat",
+        "Proficiency": 3,
+        "Icon": "images/platforms/Red_Hat.png"
+      }, {
+        "Name": "Ubuntu",
+        "Proficiency": 2,
+        "Icon": "images/platforms/Ubuntu.png"
+      }
+]

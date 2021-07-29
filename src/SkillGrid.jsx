@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Languages from './js/Languages.json'
 import Frameworks from './js/Frameworks.json'
 import Tools from './js/Tools.json'
-import Environments from './js/Environments.json'
+import Platforms from './js/Platforms.json'
 import SkillProficiency from './SkillProficiency'
 import './css/Skillset.css'
 
@@ -47,12 +47,12 @@ class SkillGrid extends Component {
                         <div className="hr-container">
                             <hr className="skillset-divider"></hr>
                         </div>
-                        {Environments.map((environment)=>{
+                        {Platforms.map((platform)=>{
                         return <div className="skill-container">
-                                <img className="skill-image" alt={environment.Name} src={environment.Icon}/>
+                                <img className="skill-image" alt={platform.Name} src={platform.Icon}/>
                                 <div className="skill-overlay">
-                                    <div class="text">{environment.Name}</div>
-                                    <SkillProficiency proficiency={environment.Proficiency}/>
+                                    <div class="text">{platform.Name}</div>
+                                    <SkillProficiency proficiency={platform.Proficiency}/>
                                 </div>
                             </div>
                         })}
