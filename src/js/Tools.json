@@ -25,6 +25,11 @@
         "Icon": "images/tools/MySQL.png"
     },
     {
+        "Name": "PostgreSQL",
+        "Proficiency": 4,
+        "Icon": "images/tools/PostgreSQL.png"
+    },
+    {
         "Name": "SQL Server",
         "Proficiency": 3,
         "Icon": "images/tools/SQL_Server.png"
