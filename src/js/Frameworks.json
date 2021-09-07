@@ -1,5 +1,10 @@
 [
     {
+        "Name": "Spring",
+        "Proficiency": 5,
+        "Icon": "images/frameworks/Spring.png"
+    },
+    {
         "Name": "Node.js",
         "Proficiency": 4,
         "Icon": "images/frameworks/Nodejs.png"
@@ -8,11 +13,6 @@
         "Name": "React",
         "Proficiency": 4,
         "Icon": "images/frameworks/React.png"
-    },
-    {
-        "Name": "Spring",
-        "Proficiency": 3,
-        "Icon": "images/frameworks/Spring.png"
     },
     {
         "Name": "Angular",
