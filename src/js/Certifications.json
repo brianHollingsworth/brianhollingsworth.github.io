@@ -7,8 +7,8 @@
     },
     {
       "Name": "AWS Certified Developer - Associate",
-      "Certified": false,
-      "Date": "Coming 08/31/21",
+      "Certified": true,
+      "Date": "09/06/21",
       "Icon": "images/certifications/aws-certified-developer-associate.png"
     }
   ]

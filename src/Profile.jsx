@@ -21,8 +21,11 @@ export default function Profile(props) {
                 className="aws-certified-cloud-practitioner"
                 href="https://www.youracclaim.com/badges/5931d596-c2da-4b98-ace2-81e46d0c231b/public_url"
                 target="_blank"
-                rel="noopener noreferrer">AWS Certified Cloud Practitioner</a>. With some more time working in an enterprise setting,
-                the AWS Certified Developer - Associate is certainly my next endeaver.
+                rel="noopener noreferrer">AWS Certified Cloud Practitioner</a> and an <a
+                className="aws-certified-developer-associate"
+                href="https://www.credly.com/badges/07c5983e-d7f0-43d2-84a4-6dac97b6be3c?source=linked_in_profile"
+                target="_blank"
+                rel="noopener noreferrer">AWS Certified Developer – Associate</a>. A professional-level certification will be my next pursuit.
             </p>
             </span>
             <CertificationGrid/>
