@@ -17,7 +17,7 @@ export default function Profile(props) {
                 className="profile-link"
                 href="https://aws.amazon.com/amplify/"
                 target="_blank"
-                rel="noopener noreferrer">AWS Amplify</a>.<br/><br/>My fandom of AWS drove me to become an <a
+                rel="noopener noreferrer">AWS Amplify</a>.<br/><br/>Some of my recent achievements: becoming an <a
                 className="aws-certified-cloud-practitioner"
                 href="https://www.credly.com/badges/f37e7393-999b-4d45-92ac-49a29a9468de"
                 target="_blank"
