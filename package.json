@@ -53,7 +53,11 @@
     ]
   },
   "devDependencies": {
+    "ansi-regex": ">=5.0.1",
     "gh-pages": "^2.1.1",
+    "json-schema": ">=0.4.0",
+    "node-notifier": ">=8.0.1",
+    "react-dev-utils": ">=11.0.4",
     "websocket-extensions": "^0.1.4"
   }
 }
