@@ -1,6 +1,6 @@
 {
   "name": "brian-hollingsworth-dev",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -22,11 +22,12 @@
     "react-html-parser": "2.0.2",
     "react-native-fontawesome": "^7.0.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^5.0.0",
     "ssri": "8.0.1",
     "tmpl": ">=1.0.5",
     "trim-newlines": "4.0.2",
     "url-parse": ">=1.5.2",
+    "webpack": "4.42.0",
     "yargs-parser": "20.2.9"
   },
   "scripts": {
