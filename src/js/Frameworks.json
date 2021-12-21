@@ -1,8 +1,8 @@
 [
     {
-        "Name": "Spring",
+        "Name": "Spring Boot",
         "Proficiency": 5,
-        "Icon": "images/frameworks/Spring.png"
+        "Icon": "images/frameworks/Spring_Boot.png"
     },
     {
         "Name": "Node.js",
