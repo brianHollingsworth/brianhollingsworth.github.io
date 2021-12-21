@@ -6,8 +6,8 @@
       },
       {
         "Name": "Windows",
-        "Proficiency": 5,
-        "Icon": "images/platforms/Windows_7.png"
+        "Proficiency": 4,
+        "Icon": "images/platforms/Windows.png"
       }, {
         "Name": "AWS",
         "Proficiency": 4,
