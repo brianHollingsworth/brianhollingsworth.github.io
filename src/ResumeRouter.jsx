@@ -10,7 +10,7 @@ import WorkExperience from "./WorkExperience";
 import Skillset from "./Skillset";
 import ResumeSection from './ResumeSection';
 
-import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUserCircle, faBriefcase, faCode, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -46,7 +46,7 @@ export default function ResumeRouter(props) {
               <ResumeSection route="/work-experience" icon={faBriefcase}/>
               <ResumeSection route="/skillset" icon={faCode}/>
             <li>
-              <a id="twitter" href="https://twitter.com/Kobe_Brian" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+              <a id="linkedin" href="https://www.linkedin.com/in/brianjhollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
             <li>
               <a id="github" href="https://github.com/brianHollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
