@@ -1,15 +1,24 @@
 [
     {
         "key": 1,
+        "Title": "Senior Software Engineer",
+        "Company": "Target",
+        "Site": "https://www.target.com",
+        "Description": "Description will be updated.",
+        "Icon": "images/Company_Icons/Target.png",
+        "Tenure": "January 2021 - Present"
+    },
+    {
+        "key": 2,
         "Title": "Software Engineer",
         "Company": "Parametric",
         "Site": "https://www.parametricportfolio.com",
         "Description": "<u>Security Master API:</u> As with any successful investment management group, having a centralized datastore of securities is pivotal for providing clients with accurate offerings. I developed a Spring Boot microservice, based on the principles of <a href=\"https://alistair.cockburn.us/hexagonal-architecture/\" target=\"_blank\" rel=\"noopener noreferrer\">Hexagonal Architecture</a>, to manage millions of securities. The core AWS services I've leveraged are <a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\">ECS</a>, <a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\">Aurora</a>, and <a href=\"https://aws.amazon.com/lambda/\" target=\"_blank\" rel=\"noopener noreferrer\">Lambda</a>.</br></br><u>Dockerize Manual Accounting:</u> In an effort to alleviate our accountants and analysts from as many tedious processes as possible, I have isolated several services as Docker images to be built and run on a scheduled basis. These services have been estimated to save at least a half hour per day of manual work that is now better spent elsewhere.",
         "Icon": "images/Company_Icons/Parametric.png",
-        "Tenure": "November 2020 - Present"
+        "Tenure": "November 2020 - December 2021"
     },
     {
-        "key": 2,
+        "key": 4,
         "Title": "Software Engineer",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
@@ -18,7 +27,7 @@
         "Tenure": "October 2018 - November 2020"
     },
     {
-        "key": 3,
+        "key": 4,
         "Title": "Associate Software Engineer",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
@@ -27,7 +36,7 @@
         "Tenure": "August 2018 - October 2018"
     },
     {
-        "key": 4,
+        "key": 5,
         "Title": "Applications Developer II",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
@@ -36,7 +45,7 @@
         "Tenure": "January 2018 - August 2018"
     },
     {
-        "key": 5,
+        "key": 6,
         "Title": "Tech Dev Program Senior Associate",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
@@ -45,7 +54,7 @@
         "Tenure": "November 2016 - January 2018"
     },
     {
-        "key": 6,
+        "key": 7,
         "Title": "Tech Dev Program Intern",
         "Company": "Optum",
         "Site": "https://www.optum.com/",
@@ -54,7 +63,7 @@
         "Tenure": "June 2016 - August 2016"
     },
     {
-        "key": 7,
+        "key": 8,
         "Title": "Software Engineering Intern",
         "Company": "Maverick Software Consulting",
         "Site": "http://www.mavericksoftware.com/",
@@ -63,7 +72,7 @@
         "Tenure": "March 2014 – April 2016"
     },
     {
-        "key": 8,
+        "key": 9,
         "Title": "Software Quality Assurance Intern",
         "Company": "Symantec",
         "Site": "https://www.symantec.com/",
@@ -72,7 +81,7 @@
         "Tenure": "May 2015 – August 2015"
     },
     {
-        "key": 9,
+        "key": 10,
         "Title": "Manager",
         "Company": "Marnanteli's Pizza",
         "Site": "http://www.marnantelispizza.com/",
@@ -81,7 +90,7 @@
         "Tenure": "January 2012 – February 2016"
     },
     {
-        "key": 10,
+        "key": 11,
         "Title": "Fulfillment Associate",
         "Company": "Merrill Corporation",
         "Site": "https://www.merrillcorp.com/en/",
