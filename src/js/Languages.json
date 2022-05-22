@@ -20,13 +20,13 @@
     "Icon": "images/languages/JavaScript.png"
   },
   {
-    "Name": "C#",
+    "Name": "Kotlin",
     "Proficiency": 4,
-    "Icon": "images/languages/CSharp.png"
+    "Icon": "images/languages/Kotlin.png"
   },
   {
-    "Name": "Kotlin",
+    "Name": "C#",
     "Proficiency": 3,
-    "Icon": "images/languages/Kotlin.png"
+    "Icon": "images/languages/CSharp.png"
   }
 ]
