@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactHtmlParser from 'react-html-parser'
+import parse from 'html-react-parser';
 import './css/Job.css';
 
 const Job = props => {
@@ -12,7 +12,7 @@ const Job = props => {
             </div>
             <div className="job-body">
                 <p>
-                { ReactHtmlParser(props.description) }
+                { parse(props.description) }
                 </p>
             </div>
             <hr className="job-divider"></hr>
