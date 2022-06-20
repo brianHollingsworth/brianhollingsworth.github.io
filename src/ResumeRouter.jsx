@@ -2,7 +2,7 @@ import React from "react";
 import BHLogo from './BHLogo';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 import Profile from "./Profile";
@@ -14,26 +14,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUserCircle, faBriefcase, faCode, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const routes = [
-  {
-    path: "/",
-    exact: true,
-    sidebar: () => <div>Profile</div>,
-    main: () => <Profile/>
-  },
-  {
-    path: "/work-experience",
-    sidebar: () => <div>Work Experience</div>,
-    main: () => <WorkExperience/>
-  },
-  {
-    path: "/skillset",
-    sidebar: () => <div>Skillset</div>,
-    main: () => <Skillset/>
-  }
-];
-
-export default function ResumeRouter(props) {
+export default function ResumeRouter() {
   return (
     <Router>
       <div style={{ display: "flex", width: "100%" }}>
@@ -58,18 +39,11 @@ export default function ResumeRouter(props) {
         </div>
 
         <div id="router-switch" style={{ flex: 1, paddingRight: "1em" }}>
-          <Switch>
-            {routes.map((route, index) => (
-              // Render more <Route>s with the same paths as
-              // above, but different components this time.
-              <Route
-                key={index}
-                path={route.path}
-                exact={route.exact}
-                children={<route.main />}
-              />
-            ))}
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Profile />} sidebar={<div>Profile</div>} exact={true}/>
+            <Route path="/work-experience" element={<WorkExperience/>} sidebar={<div>Work Experience</div>}/>
+            <Route path="/skillset" element={<Skillset/>} sidebar={<div>Skillset</div>}/>
+          </Routes>
         </div>
       </div>
     </Router>
