@@ -13,6 +13,7 @@ import ResumeSection from './ResumeSection';
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUserCircle, faBriefcase, faCode, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGeorgiaTech } from "./js/faGeorgiaTech";
 
 export default function ResumeRouter() {
   return (
@@ -26,6 +27,7 @@ export default function ResumeRouter() {
               <ResumeSection route="/" icon={faUserCircle}/>
               <ResumeSection route="/work-experience" icon={faBriefcase}/>
               <ResumeSection route="/skillset" icon={faCode}/>
+              <ResumeSection route="/" icon={faGeorgiaTech}/>
             <li>
               <a id="linkedin" href="https://www.linkedin.com/in/brianjhollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
