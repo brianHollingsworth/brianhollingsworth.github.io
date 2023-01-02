@@ -14,6 +14,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUserCircle, faBriefcase, faCode, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGeorgiaTech } from "./js/faGeorgiaTech";
+import OMSCS from "./OMSCS";
 
 export default function ResumeRouter() {
   return (
@@ -27,7 +28,7 @@ export default function ResumeRouter() {
               <ResumeSection route="/" icon={faUserCircle}/>
               <ResumeSection route="/work-experience" icon={faBriefcase}/>
               <ResumeSection route="/skillset" icon={faCode}/>
-              <ResumeSection route="/" icon={faGeorgiaTech}/>
+              <ResumeSection route="/omscs" icon={faGeorgiaTech}/>
             <li>
               <a id="linkedin" href="https://www.linkedin.com/in/brianjhollingsworth" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
             </li>
@@ -45,6 +46,7 @@ export default function ResumeRouter() {
             <Route path="/" element={<Profile />} sidebar={<div>Profile</div>} exact={true}/>
             <Route path="/work-experience" element={<WorkExperience/>} sidebar={<div>Work Experience</div>}/>
             <Route path="/skillset" element={<Skillset/>} sidebar={<div>Skillset</div>}/>
+            <Route path="/omscs" element={<OMSCS/>} sidebar={<div>OMSCS</div>}/>
           </Routes>
         </div>
       </div>

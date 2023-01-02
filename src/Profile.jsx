@@ -25,7 +25,7 @@ export default function Profile(props) {
                 className="aws-certified-developer-associate"
                 href="https://www.credly.com/badges/07c5983e-d7f0-43d2-84a4-6dac97b6be3c"
                 target="_blank"
-                rel="noopener noreferrer">AWS Certified Developer – Associate</a>. A professional-level certification will be my next pursuit.
+                rel="noopener noreferrer">AWS Certified Developer – Associate</a>. My current pursuit is earning a Master of Science in Computer Science from Georgia Tech.
             </p>
             </span>
             <CertificationGrid/>
