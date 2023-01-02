@@ -10,5 +10,11 @@
       "Certified": true,
       "Date": "09/06/21",
       "Icon": "images/certifications/aws-certified-developer-associate.png"
+    },
+    {
+      "Name": "M.S., Computer Science",
+      "Certified": false,
+      "Date": "Coming 2025",
+      "Icon": "images/certifications/georgia-tech.png"
     }
   ]

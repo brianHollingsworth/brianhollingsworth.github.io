@@ -1,0 +1,57 @@
+#omscs p {
+    padding-left: 2em;
+}
+
+#omscs-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gt-foreword {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    vertical-align: middle;
+    height: inherit;
+}
+
+.course {
+    padding: 1em 0 0 2em;
+    text-align: left;
+}
+
+.course p {
+    padding-bottom: 1em;
+}
+
+.course-header {
+    text-align: left;
+}
+
+.course-name {
+    margin: 0;
+    padding-bottom: 0.1em;
+}
+
+.course-semester {
+    margin: 0;
+    padding-bottom: 0.2em;
+}
+
+.course-body {
+    width: 95%;
+}
+
+.course-divider {
+    width: 95%;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: white;
+}
+
+a {
+    color: #61dafb
+}

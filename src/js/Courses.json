@@ -1,0 +1,16 @@
+[
+    {
+        "key": 1,
+        "Name": "CS 6400: Database Systems Concepts and Design",
+        "Semester": "Spring 2023",
+        "Description": "My second course to fulfill my core course requirement.",
+        "Link": "https://omscs.gatech.edu/cs-6400-database-systems-concepts-and-design"
+    },
+    {
+        "key": 2,
+        "Name": "CS 6290: High Performance Computer Architecture",
+        "Semester": "Fall 2022",
+        "Description": "My first course in the program included course lectures on instruction pipelining, branching, and caching. The projects simulated single-core and multi-core processors using the SPLASH-2 benchmark suite. Each project asked to build upon the solutions developed in the previous project. This proved to be particularly challenging during the final project, which focused on running parallel applications and cache coherence.",
+        "Link": "https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture"
+    }
+]
