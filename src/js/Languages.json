@@ -5,6 +5,11 @@
     "Icon": "images/languages/Java.png"
   },
   {
+    "Name": "Kotlin",
+    "Proficiency": 5,
+    "Icon": "images/languages/Kotlin.png"
+  },
+  {
     "Name": "HTML",
     "Proficiency": 4,
     "Icon": "images/languages/HTML.png"
@@ -18,11 +23,6 @@
     "Name": "JavaScript",
     "Proficiency": 4,
     "Icon": "images/languages/JavaScript.png"
-  },
-  {
-    "Name": "Kotlin",
-    "Proficiency": 4,
-    "Icon": "images/languages/Kotlin.png"
   },
   {
     "Name": "C#",
