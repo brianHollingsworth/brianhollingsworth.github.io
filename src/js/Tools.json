@@ -30,13 +30,13 @@
         "Icon": "images/tools/PostgreSQL.png"
     },
     {
-        "Name": "SQL Server",
+        "Name": "Kubernetes",
         "Proficiency": 3,
-        "Icon": "images/tools/SQL_Server.png"
+        "Icon": "images/tools/Kubernetes.png"
     },
     {
-        "Name": "RabbitMQ",
+        "Name": "Apache Kafka",
         "Proficiency": 3,
-        "Icon": "images/tools/RabbitMQ.png"
+        "Icon": "images/tools/Kafka.png"
     }
 ]
