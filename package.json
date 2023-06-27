@@ -28,7 +28,7 @@
     "tmpl": "1.0.5",
     "trim-newlines": "4.0.2",
     "url-parse": "1.5.10",
-    "webpack": "5.73.0",
+    "webpack": "5.76.0",
     "yargs-parser": "21.0.1"
   },
   "scripts": {
