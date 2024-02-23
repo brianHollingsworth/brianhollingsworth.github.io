@@ -10,6 +10,11 @@
         "Icon": "images/tools/Visual_Studio_Code.png"
     },
     {
+        "Name": "Apache Kafka",
+        "Proficiency": 4,
+        "Icon": "images/tools/Kafka.png"
+    },
+    {
         "Name": "Visual Studio",
         "Proficiency": 4,
         "Icon": "images/tools/Visual_Studio.png"
@@ -33,10 +38,5 @@
         "Name": "Kubernetes",
         "Proficiency": 3,
         "Icon": "images/tools/Kubernetes.png"
-    },
-    {
-        "Name": "Apache Kafka",
-        "Proficiency": 3,
-        "Icon": "images/tools/Kafka.png"
     }
 ]
