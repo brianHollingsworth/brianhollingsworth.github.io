@@ -1,27 +1,41 @@
 [
     {
         "key": 1,
+        "Name": "CS 6340: Software Analysis",
+        "Semester": "Summer 2024",
+        "Description": "In progress...",
+        "Link": "https://omscs.gatech.edu/cs-6340-software-analysis"
+    },
+    {
+        "key": 2,
+        "Name": "CS 6035: Introduction to Information Security",
+        "Semester": "Spring 2024",
+        "Description": "With the rise of organized retail crime and the emphasis Target puts towards securing guest data, I elected to take a course on Information Security. This course primarily tested my knowledge via capture-the-flag style projects, where I had to intercept messages on a vulnerable VM or replicate the vaunted Log4Shell exploit that I just happened to patch up the year prior at Target. Using the knowledge gained about the malicious side of hacking, the course capped off with a project that focused on developing machine learning models to detect suspicious network traffic.",
+        "Link": "https://omscs.gatech.edu/cs-6035-introduction-information-security"
+    },
+    {
+        "key": 3,
         "Name": "CS 6250: Computer Networks",
         "Semester": "Fall 2023",
         "Description": "After completing my core courses, I was free to choose the electives that interested me most and would provide a good foundation for Distributed Computing. Despite growing up with the Internet and building applications for the cloud, I felt like my knowledge of the Internet’s underlying infrastructure was lacking. I could explain the Internet to my non-technical family and friends in my own words — or words I learned from the Internet. CS 6250 provided thoroughly enjoyable learning material and projects that isolated core facets of today’s Internet (spanning tree protocol, domain routing, SDN firewalls, BGP hijacking) into a local environment.",
         "Link": "https://omscs.gatech.edu/cs-6250-computer-networks"
     },
     {
-        "key": 2,
+        "key": 4,
         "Name": "CS 6300: Software Development Process",
         "Semester": "Summer 2023",
         "Description": "My third course to fulfill my core course requirement. Despite being a software engineer for several years, I wanted to learn more about refactoring techniques during different stages of a project's lifecycle. The group project for this course focused on developing an Android application. Each team member designed their own architecture diagram, we consolidated our designs into a final architecture to follow, and then we implemented that design in Android Studio. Being the most experienced in the group allowed me to take on the role of project manager in addition to my role as an engineer. I developed the SQLite database and the abstract code for making database transactions. The final individual project was a unique challenge: write unit tests for a CLI command without seeing the backend code and then implement the CLI command without breaking the test suite.",
         "Link": "https://omscs.gatech.edu/cs-6300-software-development-process"
     },
     {
-        "key": 3,
+        "key": 5,
         "Name": "CS 6400: Database Systems Concepts and Design",
         "Semester": "Spring 2023",
         "Description": "My second course to fulfill my core course requirement. I took this course to enhance my aptitude of databases beyond my day-to-day interactions with canned transactions and one-off SELECT statements. Covering relational algebra and calculus took me back to learning discrete mathematics at St. Cloud State. Creating EER diagrams, transforming them into relational mappings, and designing a database-centric web app with a group of varying backgrounds proved to be a worthwhile challenge. I utilized my experience with Docker to accelerate our team's development by creating a PostgreSQL container and an Alpine Linux container, which allowed my team members & I to put all of our focus on the core project.",
         "Link": "https://omscs.gatech.edu/cs-6400-database-systems-concepts-and-design"
     },
     {
-        "key": 4,
+        "key": 6,
         "Name": "CS 6290: High Performance Computer Architecture",
         "Semester": "Fall 2022",
         "Description": "My first course in the program included course lectures on instruction pipelining, branching, and caching. The projects simulated single-core and multi-core processors using the SPLASH-2 benchmark suite. Each project asked to build upon the solutions developed in the previous project. This proved to be particularly challenging during the final project, which focused on running parallel applications and cache coherence.",
